@@ -1,5 +1,7 @@
 {
   "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/busboy": "^1.5.0",
     "@types/node": "^18.13.0",
     "aws-sdk": "^2.1310.0",
     "dotenv": "^16.0.3",
@@ -7,9 +9,12 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.267.0",
+    "@filebase/client": "^0.0.4",
     "@netlify/functions": "^1.4.0",
     "@now/node": "^1.8.5",
     "@supabase/supabase-js": "^2.8.0",
-    "amqplib": "^0.10.3"
+    "amqplib": "^0.10.3",
+    "busboy": "^1.6.0",
+    "http-status-codes": "^2.2.0"
   }
 }
